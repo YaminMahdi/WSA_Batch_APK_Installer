@@ -8,7 +8,7 @@ Quick Multiple APK Installer for WSA.
 > 
 > * Copy the **IP Address** from WSA to enable **ADB**
 > 
-> * ADB Installed.
+> * ADB Installed. [Not needed anymore.]
 
 # Steps:
 
