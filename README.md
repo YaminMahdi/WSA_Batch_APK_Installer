@@ -1,7 +1,13 @@
 # WSA_Batch_APK_Installer
 Quick Multiple APK Installer for WSA
 
-Steps:
+# Requirment:
+> WSA Installed.
+> Devloper Mode Enabled.
+> Copy the **IP** from WSA to enable **ADB**
+> ADB Installed.
+
+# Steps:
 
 > Clone the repo.
 > 
