@@ -6,25 +6,25 @@ Quick Multiple APK Installer for WSA.
 > 
 > * Devloper Mode Enabled.
 > 
-> * Copy the **IP Address** from WSA to enable **ADB**
+> * Copy the **IP Address** from WSA to enable **ADB Sideload**
 > 
 > * ADB Installed. [Not needed anymore.]
 
 # Steps:
 
-> * Clone the repo.
+> * Clone the Repo or Download & UnZip.
 > 
-> * Copy all APKS to the **ROOT FOLDER** of this repo. 
+> * Copy all APKs to the **ROOT FOLDER** of this repo. 
 > 
 > * Run **1.EnablePowerShell[RunAsAdministor].cmd** to enable **ExecutionPolicy** for PowerShell. 
 > 
-> * Now run **2.installAllApk[RunWithPowerShell].ps1** to install al apks from this folder.
+> * Now run **2.installAllApk[RunWithPowerShell].ps1** to install al APKs from **ROOT FOLDER**.
 
 # New:
 
-> * Already installed APKs from ROOT FOLDER will not install again.
+> * Already installed APKs from **ROOT FOLDER** will not install again.
 > 
-> * You can only UPGRADE or DOWNGRADE a APK by putting another version of that installed APK.
+> * You can only **UPGRADE** or **DOWNGRADE** a APK by putting another version of that installed APK in ****.
 
 # Screenshot:
 
