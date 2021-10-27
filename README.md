@@ -22,9 +22,9 @@ Quick Multiple APK Installer for WSA.
 
 # New:
 
-> * Installed APKs(same version) from ROOT FOLDER will not install again.
+> * Already installed APKs from ROOT FOLDER will not install again.
 > 
-> * You can only UPGRADE or DOWNGRADE a APK by putting another version of a installed APK.
+> * You can only UPGRADE or DOWNGRADE a APK by putting another version of that installed APK.
 
 # Screenshot:
 
