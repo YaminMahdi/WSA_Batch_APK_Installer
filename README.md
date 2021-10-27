@@ -1,5 +1,5 @@
 # WSA_Batch_APK_Installer
-Quick Multiple APK Installer for WSA.
+Quick Multiple APK Installer for WSA(Windows Subsystem for Android).
 
 # Requirment:
 > * WSA Installed.
@@ -18,13 +18,13 @@ Quick Multiple APK Installer for WSA.
 > 
 > * Run **1.EnablePowerShell[RunAsAdministor].cmd once** to enable **ExecutionPolicy** for PowerShell.
 > 
-> * Now run this Everything **2.installAllApk[RunWithPowerShell].ps1** to install all APKs from **ROOT FOLDER**.
+> * Now run this Everytime **2.installAllApk[RunWithPowerShell].ps1** to install all APKs from **ROOT FOLDER**.
 
 # New:
 
 > * Already installed APKs from **ROOT FOLDER** will not install again.
 > 
-> * You can only **UPGRADE** or **DOWNGRADE** a APK by putting another version of that installed APK in ****.
+> * You can only **UPGRADE** or **DOWNGRADE** a APK by putting another version of that installed APK in **ROOT FOLDER**.
 
 # Screenshot:
 
