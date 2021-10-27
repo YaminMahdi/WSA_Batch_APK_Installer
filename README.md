@@ -16,9 +16,9 @@ Quick Multiple APK Installer for WSA.
 > 
 > * Copy all APKs to the **ROOT FOLDER** of this repo. 
 > 
-> * Run **1.EnablePowerShell[RunAsAdministor].cmd** to enable **ExecutionPolicy** for PowerShell. 
+> * Run **1.EnablePowerShell[RunAsAdministor].cmd once** to enable **ExecutionPolicy** for PowerShell.
 > 
-> * Now run **2.installAllApk[RunWithPowerShell].ps1** to install al APKs from **ROOT FOLDER**.
+> * Now run this Everything **2.installAllApk[RunWithPowerShell].ps1** to install all APKs from **ROOT FOLDER**.
 
 # New:
 
