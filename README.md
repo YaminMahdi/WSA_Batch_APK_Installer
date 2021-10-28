@@ -35,10 +35,19 @@ Quick Multiple APK Installer for WSA(Windows Subsystem for Android).
 # Screenshot:
 **DOWNGRADEING-**
 
+![image](https://user-images.githubusercontent.com/48239104/139204924-53df877f-039c-40d8-a03b-d8a86d037219.png)
+
 **UPGRADEING-**
+
+![image](https://user-images.githubusercontent.com/48239104/139204886-cf831185-24b3-43f0-896c-1035b896fdeb.png)
 
 **NEW INSTALLATIONs-**
 
+![image](https://user-images.githubusercontent.com/48239104/139204805-5b2bc9f0-74bd-4ed2-93cc-38675299acae.png)
+
 **NOT INSTALLING-**
 
-![image](https://user-images.githubusercontent.com/48239104/139120038-7f50f24c-eb18-48e7-880a-312e86ee7276.png)
+![image](https://user-images.githubusercontent.com/48239104/139204547-624e7df5-d8a6-46c9-8c8d-e0326dcae64b.png)
+
+
+[//]: # ![image](https://user-images.githubusercontent.com/48239104/139120038-7f50f24c-eb18-48e7-880a-312e86ee7276.png)
