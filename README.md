@@ -25,7 +25,20 @@ Quick Multiple APK Installer for WSA(Windows Subsystem for Android).
 > * Already installed APKs from **ROOT FOLDER** will not install again.
 > 
 > * You can only **UPGRADE** or **DOWNGRADE** a APK by putting another version of that installed APK in **ROOT FOLDER**.
+>
+> * Added **Application Name** beside **Package Name**.
+
+# Bug fix:
+
+> * **DOWNGRADE** was not working before. 
 
 # Screenshot:
+**DOWNGRADEING-**
+
+**UPGRADEING-**
+
+**NEW INSTALLATIONs-**
+
+**NOT INSTALLING-**
 
 ![image](https://user-images.githubusercontent.com/48239104/139120038-7f50f24c-eb18-48e7-880a-312e86ee7276.png)

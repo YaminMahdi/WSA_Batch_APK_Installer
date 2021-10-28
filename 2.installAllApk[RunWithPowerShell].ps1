@@ -20,7 +20,24 @@ foreach ($apks in $files.Name)
 	}
 	Write-Host "------------------------------------------"
 	$count++;
-	Write-Host "Found Apk No.- $count. `nName         : $apks"
+	Write-Host "Found Apk No.- $count `nFile Name    : $apks"
+	
+#geting App Name
+	$aNm= tools.\aapt dump badging $apks | Select-String "application-label:"
+	$aNm= $aNm.ToString()
+	$in = $aNm.IndexOf('''')+1
+	$nm=  ''
+	for( $i=$in; ; $i++)
+	{
+		if($aNm[$i] -eq '''')
+		{
+			break
+		}
+		$nm = $nm.Insert($i-$in,$aNm[$i]);
+	}
+	Write-Host "App Name     : $nm"
+	#./aapt dump badging K:\wsa\apps\ZenUI_Launcher_2.0.1.10_151210.apk | Select-String "application-label:"
+
 	$yk = tools.\aapt dump badging $apks | Select-String "package: name="
 	$yk = $yk.ToString()
 
@@ -56,24 +73,36 @@ foreach ($apks in $files.Name)
 		Write-Host "A version of this APK is already installed.`nTring to update..`nGeting Version.."
 		$inVer= tools.\adb shell dumpsys package $pac | Select-String "versionName"
 		$inVer= $inVer.ToString()
-		
-		$z="    versionName=" + $ver
-		if($inVer.equals($z))
+		$inVer= $inVer.Substring($inVer.IndexOf("=")+1)
+		Write-Host "Installed Version: $inVer"
+		if($inVer.equals($ver))
 		{
-			Write-Host "Installed Version: $ver."
 			Write-Host "APK Installation Failed.`nSame vesion is already installed."
 			Write-Host "You can only UPGRADE or DOWNGRADE a APK."
 		}
 		else
 		{
-			Write-Host "Updating APK to letest version."
-			tools.\adb install $apks;
+			Write-Host "Changing APK version ($inVer to $ver)"
+			#[double]::TryParse($ver, [ref]$ver)
+			#[double]::TryParse($inVer, [ref]$ver)
+			#$ver = [double]$ver
+			#$inVer = [double]$ver
+			if($ver -le $inVer)
+			{
+				Write-Host "Downgrading.."
+				tools.\adb install -d -r $apks;
+			}
+			else
+			{
+				Write-Host "Upgrading.."
+				tools.\adb install $apks;
+			}
 			$inCount++;
 		}
 	}
 	else
 	{
-		Write-Host "Now installing- $apks."
+		Write-Host "Installing $nm.."
 		tools.\adb install $apks;
 		$inCount++;
 	}
