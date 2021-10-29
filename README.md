@@ -1,6 +1,9 @@
 # WSA_Batch_APK_Installer
 Quick Multiple APK Installer for WSA(Windows Subsystem for Android).
 
+# Video Tutorial:
+[![Watch the video]((https://user-images.githubusercontent.com/48239104/139420714-a7793858-4f0f-4d34-95a5-93c067f68c24.png)](https://youtu.be/taYi4qC2qhs)
+
 # Requirment:
 > * WSA Installed.
 > 
